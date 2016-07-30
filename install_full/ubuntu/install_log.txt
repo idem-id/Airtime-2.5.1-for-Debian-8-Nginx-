@@ -1,0 +1,93 @@
+----------------------------------------------------
+ 1. Install Packages
+----------------------------------------------------
+deb http://apt.sourcefabric.org/ jessie main
+Hit http://security.debian.org jessie/updates InRelease
+Ign http://ftp.ua.debian.org jessie InRelease
+Hit http://apt.sourcefabric.org wheezy InRelease
+Hit http://ppa.launchpad.net precise InRelease
+Hit http://ftp.ua.debian.org jessie-updates InRelease
+Hit http://ftp.ua.debian.org jessie Release.gpg
+Hit http://apt.sourcefabric.org jessie InRelease
+Hit http://ftp.ua.debian.org jessie Release
+Hit http://security.debian.org jessie/updates/main Sources
+Hit http://apt.sourcefabric.org wheezy/main amd64 Packages
+Ign http://ftp.us.debian.org wheezy InRelease
+Hit http://security.debian.org jessie/updates/non-free Sources
+Hit http://http.debian.net jessie-backports InRelease
+Ign http://packages.elastic.co stable InRelease
+Hit http://ppa.launchpad.net precise/main Sources
+Hit http://ftp.ua.debian.org jessie-updates/main Sources
+Hit http://security.debian.org jessie/updates/contrib Sources
+Hit http://ftp.ua.debian.org jessie-updates/non-free Sources
+Hit http://ftp.ua.debian.org jessie-updates/contrib Sources
+Hit http://security.debian.org jessie/updates/main amd64 Packages
+Hit http://ppa.launchpad.net precise/main amd64 Packages
+Get:1 http://ftp.ua.debian.org jessie-updates/main amd64 Packages/DiffIndex [1,504 B]
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Get:2 http://ftp.ua.debian.org jessie-updates/non-free amd64 Packages/DiffIndex [736 B]
+Hit http://security.debian.org jessie/updates/non-free amd64 Packages
+Hit http://ftp.ua.debian.org jessie-updates/contrib amd64 Packages
+Hit http://ppa.launchpad.net precise/main Translation-en
+Hit http://ftp.ua.debian.org jessie-updates/contrib Translation-en
+Hit http://security.debian.org jessie/updates/contrib amd64 Packages
+Ign http://packages.elastic.co stable InRelease
+Get:3 http://ftp.ua.debian.org jessie-updates/main Translation-en/DiffIndex [736 B]
+Get:4 http://ftp.ua.debian.org jessie-updates/non-free Translation-en/DiffIndex [736 B]
+Hit http://security.debian.org jessie/updates/contrib Translation-en
+Hit http://apt.sourcefabric.org jessie/main amd64 Packages
+Hit http://ftp.ua.debian.org jessie/main Sources
+Hit http://security.debian.org jessie/updates/main Translation-en
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://ftp.ua.debian.org jessie/non-free Sources
+Hit http://ftp.ua.debian.org jessie/contrib Sources
+Hit http://security.debian.org jessie/updates/non-free Translation-en
+Hit http://ftp.ua.debian.org jessie/main amd64 Packages
+Hit http://ftp.ua.debian.org jessie/non-free amd64 Packages
+Get:5 http://http.debian.net jessie-backports/main amd64 Packages/DiffIndex [27.8 kB]
+Hit http://packages.elastic.co stable Release.gpg
+Hit http://ftp.ua.debian.org jessie/contrib amd64 Packages
+Get:6 http://http.debian.net jessie-backports/contrib Translation-en/DiffIndex [3,532 B]
+Hit http://ftp.ua.debian.org jessie/contrib Translation-en
+Hit http://ftp.ua.debian.org jessie/main Translation-en
+Hit http://ftp.ua.debian.org jessie/main Translation-ru
+Get:7 http://http.debian.net jessie-backports/non-free amd64 Packages/DiffIndex [6,130 B]
+Hit http://packages.elastic.co stable Release.gpg
+Hit http://ftp.ua.debian.org jessie/non-free Translation-en
+Get:8 http://http.debian.net jessie-backports/contrib amd64 Packages/DiffIndex [6,544 B]
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Hit http://packages.elastic.co stable Release
+Hit http://ftp.us.debian.org wheezy/main Translation-ru
+Hit http://packages.elastic.co stable Release
+Get:9 http://http.debian.net jessie-backports/non-free Translation-en/DiffIndex [5,854 B]
+Hit http://ftp.us.debian.org wheezy/main amd64 Packages
+Get:10 http://http.debian.net jessie-backports/main Translation-en/DiffIndex [27.8 kB]
+Hit http://packages.elastic.co stable/main amd64 Packages
+Ign http://apt.sourcefabric.org wheezy/main Translation-en_US
+Ign http://apt.sourcefabric.org wheezy/main Translation-en
+Ign http://apt.sourcefabric.org wheezy/main Translation-ru
+Ign http://apt.sourcefabric.org jessie/main Translation-en_US
+Ign http://apt.sourcefabric.org jessie/main Translation-en
+Ign http://apt.sourcefabric.org jessie/main Translation-ru
+Hit http://packages.elastic.co stable/main amd64 Packages
+Get:11 https://packages.elastic.co stable InRelease [303 B]
+Ign https://packages.elastic.co stable InRelease
+Hit https://packages.elastic.co stable Release.gpg
+Hit https://packages.elastic.co stable Release
+Hit https://packages.elastic.co stable/main amd64 Packages
+Get:12 https://packages.elastic.co stable/main Translation-en_US [325 B]
+Get:13 https://packages.elastic.co stable/main Translation-en [322 B]
+Get:14 https://packages.elastic.co stable/main Translation-ru [322 B]
+Get:15 https://packages.elastic.co stable/main Translation-en_US [325 B]
+Get:16 https://packages.elastic.co stable/main Translation-en [322 B]
+Get:17 https://packages.elastic.co stable/main Translation-ru [322 B]
+Get:18 https://packages.elastic.co stable/main Translation-en_US [325 B]
+Get:19 https://packages.elastic.co stable/main Translation-en [322 B]
+Get:20 https://packages.elastic.co stable/main Translation-ru [322 B]
+Get:21 https://packages.elastic.co stable/main Translation-en_US [325 B]
+Get:22 https://packages.elastic.co stable/main Translation-en [322 B]
+Get:23 https://packages.elastic.co stable/main Translation-ru [322 B]
+Get:24 https://packages.elastic.co stable/main Translation-en_US [325 B]
+Ign https://packages.elastic.co stable/main Translation-en_US
+E: Method http has died unexpectedly!
+E: Sub-process http returned an error code (100)

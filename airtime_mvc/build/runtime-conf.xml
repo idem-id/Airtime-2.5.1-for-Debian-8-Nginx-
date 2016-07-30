@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <propel>
+    <datasources default="airtime">
+      <datasource id="airtime">
+        <adapter>pgsql</adapter> <!-- sqlite, mysql, myssql, oracle, or pgsql -->
+        <connection>
+          <dsn>pgsql:host=localhost;port=5432;dbname=airtime;user=airtime;password=airtime</dsn>
+        </connection>
+      </datasource>
+    </datasources>
+  </propel>
+</config>

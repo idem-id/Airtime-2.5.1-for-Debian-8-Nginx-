@@ -1,0 +1,380 @@
+----------------------------------------------------
+ 1. Install Packages
+----------------------------------------------------
+deb http://apt.sourcefabric.org/ jessie main
+Hit http://security.debian.org jessie/updates InRelease
+Hit http://apt.sourcefabric.org wheezy InRelease
+Hit http://ppa.launchpad.net precise InRelease
+Ign http://ftp.ua.debian.org jessie InRelease
+Hit http://ftp.ua.debian.org jessie-updates InRelease
+Hit http://apt.sourcefabric.org jessie InRelease
+Hit http://ftp.ua.debian.org jessie Release.gpg
+Hit http://ftp.ua.debian.org jessie Release
+Hit http://security.debian.org jessie/updates/non-free Sources
+Ign http://ftp.us.debian.org wheezy InRelease
+Hit http://ftp.ua.debian.org jessie-updates/contrib Sources
+Hit http://security.debian.org jessie/updates/non-free amd64 Packages
+Get:1 http://ftp.ua.debian.org jessie-updates/main amd64 Packages/DiffIndex [1,504 B]
+Get:2 http://ftp.ua.debian.org jessie-updates/non-free amd64 Packages/DiffIndex [736 B]
+Hit http://ftp.ua.debian.org jessie-updates/contrib amd64 Packages
+Hit http://ftp.us.debian.org wheezy Release.gpg
+Hit http://ftp.ua.debian.org jessie-updates/contrib Translation-en
+Get:3 http://ftp.ua.debian.org jessie-updates/main Translation-en/DiffIndex [736 B]
+Get:4 http://ftp.ua.debian.org jessie-updates/non-free Translation-en/DiffIndex [736 B]
+Hit http://ppa.launchpad.net precise/main Sources
+Hit http://ftp.ua.debian.org jessie-updates/main Sources
+Hit http://apt.sourcefabric.org wheezy/main amd64 Packages
+Hit http://security.debian.org jessie/updates/non-free Translation-en
+Hit http://ppa.launchpad.net precise/main amd64 Packages
+Hit http://security.debian.org jessie/updates/main Sources
+Hit http://ftp.us.debian.org wheezy Release
+Hit http://security.debian.org jessie/updates/contrib Sources
+Hit http://http.debian.net jessie-backports InRelease
+Hit http://ppa.launchpad.net precise/main Translation-en
+Hit http://security.debian.org jessie/updates/main amd64 Packages
+Hit http://security.debian.org jessie/updates/contrib amd64 Packages
+Hit http://security.debian.org jessie/updates/contrib Translation-en
+Hit http://security.debian.org jessie/updates/main Translation-en
+Ign http://packages.elastic.co stable InRelease
+Hit http://ftp.ua.debian.org jessie-updates/non-free Sources
+Hit http://ftp.ua.debian.org jessie/main Sources
+Hit http://ftp.ua.debian.org jessie/non-free Sources
+Get:5 http://http.debian.net jessie-backports/main amd64 Packages/DiffIndex [27.8 kB]
+Hit http://ftp.ua.debian.org jessie/contrib Sources
+Hit http://ftp.ua.debian.org jessie/main amd64 Packages
+Hit http://apt.sourcefabric.org jessie/main amd64 Packages
+Hit http://ftp.ua.debian.org jessie/non-free amd64 Packages
+Hit http://ftp.ua.debian.org jessie/contrib amd64 Packages
+Ign http://packages.elastic.co stable InRelease
+Hit http://ftp.ua.debian.org jessie/contrib Translation-en
+Hit http://ftp.ua.debian.org jessie/main Translation-en
+Get:6 http://http.debian.net jessie-backports/non-free amd64 Packages/DiffIndex [6,130 B]
+Hit http://ftp.ua.debian.org jessie/main Translation-ru
+Hit http://ftp.ua.debian.org jessie/non-free Translation-en
+Get:7 http://http.debian.net jessie-backports/contrib amd64 Packages/DiffIndex [6,544 B]
+Hit http://packages.elastic.co stable Release.gpg
+Hit http://ftp.us.debian.org wheezy/main amd64 Packages
+Get:8 http://http.debian.net jessie-backports/contrib Translation-en/DiffIndex [3,532 B]
+Hit http://packages.elastic.co stable Release.gpg
+Hit http://ftp.us.debian.org wheezy/main Translation-en
+Get:9 http://http.debian.net jessie-backports/main Translation-en/DiffIndex [27.8 kB]
+Hit http://ftp.us.debian.org wheezy/main Translation-ru
+Hit http://packages.elastic.co stable Release
+Hit http://packages.elastic.co stable Release
+Get:10 http://http.debian.net jessie-backports/non-free Translation-en/DiffIndex [5,854 B]
+Ign http://apt.sourcefabric.org wheezy/main Translation-en_US
+Ign http://apt.sourcefabric.org wheezy/main Translation-en
+Ign http://apt.sourcefabric.org wheezy/main Translation-ru
+Ign http://apt.sourcefabric.org jessie/main Translation-en_US
+Ign http://apt.sourcefabric.org jessie/main Translation-en
+Ign http://apt.sourcefabric.org jessie/main Translation-ru
+Get:11 https://packages.elastic.co stable InRelease [303 B]
+Ign https://packages.elastic.co stable InRelease
+Hit https://packages.elastic.co stable Release.gpg
+Hit https://packages.elastic.co stable Release
+Get:12 https://packages.elastic.co stable/main Translation-en_US [325 B]
+Hit http://packages.elastic.co stable/main amd64 Packages
+Get:13 https://packages.elastic.co stable/main Translation-en [322 B]
+Get:14 https://packages.elastic.co stable/main Translation-ru [322 B]
+Hit https://packages.elastic.co stable/main amd64 Packages
+Hit http://packages.elastic.co stable/main amd64 Packages
+Get:15 https://packages.elastic.co stable/main Translation-en_US [325 B]
+Get:16 https://packages.elastic.co stable/main Translation-en [322 B]
+Get:17 https://packages.elastic.co stable/main Translation-ru [322 B]
+Get:18 https://packages.elastic.co stable/main Translation-en_US [325 B]
+Get:19 https://packages.elastic.co stable/main Translation-en [322 B]
+Get:20 https://packages.elastic.co stable/main Translation-ru [322 B]
+Get:21 https://packages.elastic.co stable/main Translation-en_US [325 B]
+Get:22 https://packages.elastic.co stable/main Translation-en [322 B]
+Get:23 https://packages.elastic.co stable/main Translation-ru [322 B]
+Get:24 https://packages.elastic.co stable/main Translation-en_US [325 B]
+Ign https://packages.elastic.co stable/main Translation-en_US
+Get:25 https://packages.elastic.co stable/main Translation-en [322 B]
+Ign https://packages.elastic.co stable/main Translation-en
+Get:26 https://packages.elastic.co stable/main Translation-ru [322 B]
+Ign https://packages.elastic.co stable/main Translation-ru
+Ign http://packages.elastic.co stable/main Translation-en_US
+Ign http://packages.elastic.co stable/main Translation-en
+Ign http://packages.elastic.co stable/main Translation-ru
+Ign http://packages.elastic.co stable/main Translation-en_US
+Ign http://packages.elastic.co stable/main Translation-en
+Ign http://packages.elastic.co stable/main Translation-ru
+Fetched 81.4 kB in 6s (12.3 kB/s)
+Reading package lists...
+W: Duplicate sources.list entry http://ftp.us.debian.org/debian/ wheezy/main amd64 Packages (/var/lib/apt/lists/ftp.us.debian.org_debian_dists_wheezy_main_binary-amd64_Packages)
+W: Duplicate sources.list entry http://ftp.us.debian.org/debian/ wheezy/main amd64 Packages (/var/lib/apt/lists/ftp.us.debian.org_debian_dists_wheezy_main_binary-amd64_Packages)
+W: Duplicate sources.list entry http://ftp.us.debian.org/debian/ wheezy/main amd64 Packages (/var/lib/apt/lists/ftp.us.debian.org_debian_dists_wheezy_main_binary-amd64_Packages)
+W: Duplicate sources.list entry http://ftp.us.debian.org/debian/ wheezy/main amd64 Packages (/var/lib/apt/lists/ftp.us.debian.org_debian_dists_wheezy_main_binary-amd64_Packages)
+W: You may want to run apt-get update to correct these problems
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libcamomile-ocaml-data is already the newest version.
+ecasound is already the newest version.
+libesd0 is already the newest version.
+libfaad2 is already the newest version.
+flac is already the newest version.
+gzip is already the newest version.
+libsamplerate0 is already the newest version.
+lsb-release is already the newest version.
+lsof is already the newest version.
+monit is already the newest version.
+mpg123 is already the newest version.
+multitail is already the newest version.
+libao-ocaml is already the newest version.
+libmad-ocaml is already the newest version.
+libsoundtouch-ocaml is already the newest version.
+libtaglib-ocaml is already the newest version.
+patch is already the newest version.
+php-apc is already the newest version.
+php-pear is already the newest version.
+php5-curl is already the newest version.
+php5-gd is already the newest version.
+php5-pgsql is already the newest version.
+libportaudio2 is already the newest version.
+postgresql is already the newest version.
+odbc-postgresql is already the newest version.
+libpulse0 is already the newest version.
+pwgen is already the newest version.
+python is already the newest version.
+python-virtualenv is already the newest version.
+rabbitmq-server is already the newest version.
+sudo is already the newest version.
+tar is already the newest version.
+vorbis-tools is already the newest version.
+vorbisgain is already the newest version.
+curl is already the newest version.
+mp3gain is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 36 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+icecast2 is already the newest version.
+lame is already the newest version.
+libmp3lame-dev is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 36 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+zendframework is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 36 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+coreutils is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 36 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libvo-aacenc0 is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 36 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+sourcefabric-keyring is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 36 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+liquidsoap is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 36 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+silan is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 36 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libopus0 is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 36 not upgraded.
+----------------------------------------------------
+2.1 NGINX Config File
+----------------------------------------------------
+----------------------------------------------------
+3. Enable Icecast
+----------------------------------------------------
+
+----------------------------------------------------
+4. Enable Monit
+----------------------------------------------------
+----------------------------------------------------
+5. Run Airtime Install
+----------------------------------------------------
+* Making sure /etc/default/locale is set properly
+LANG=en_US.UTF-8
+ * None found.
+* Temporarily stopping any previous running services
+
+******************************** Install Begin *********************************
+Ensuring python-virtualenv version > 1.4.8...Success!
+
+*** Creating Virtualenv for Airtime ***
+New python executable in /usr/lib/airtime/airtime_virtualenv/bin/python
+Installing setuptools, pip...done.
+Running virtualenv with interpreter /usr/bin/python
+
+*** Installing Python Libraries ***
+Unpacking /home/idem/Airtime/python_apps/python-virtualenv/airtime_virtual_env.pybundle
+Downloading/unpacking mutagen
+  Running setup.py (path:/tmp/pip-build-EBrGF4/mutagen/setup.py) egg_info for package mutagen
+    
+Downloading/unpacking PyDispatcher
+  Running setup.py (path:/tmp/pip-build-EBrGF4/PyDispatcher/setup.py) egg_info for package PyDispatcher
+    
+    warning: no previously-included files matching '*.bat' found anywhere in distribution
+    warning: no previously-included files matching './CVS' found anywhere in distribution
+    warning: no previously-included files matching '.cvsignore' found anywhere in distribution
+Downloading/unpacking anyjson
+  Running setup.py (path:/tmp/pip-build-EBrGF4/anyjson/setup.py) egg_info for package anyjson
+    
+Requirement already satisfied (use --upgrade to upgrade): argparse in /usr/lib/python2.7
+Downloading/unpacking configobj
+  Running setup.py (path:/tmp/pip-build-EBrGF4/configobj/setup.py) egg_info for package configobj
+    
+Downloading/unpacking pyinotify
+  Running setup.py (path:/tmp/pip-build-EBrGF4/pyinotify/setup.py) egg_info for package pyinotify
+    
+Downloading/unpacking pytz
+  Running setup.py (path:/tmp/pip-build-EBrGF4/pytz/setup.py) egg_info for package pytz
+    
+    warning: no files found matching '*.pot' under directory 'pytz'
+    warning: no previously-included files found matching 'test_zdump.py'
+Downloading/unpacking amqplib
+  Running setup.py (path:/tmp/pip-build-EBrGF4/amqplib/setup.py) egg_info for package amqplib
+    
+Requirement already satisfied (use --upgrade to upgrade): wsgiref in /usr/lib/python2.7
+Downloading/unpacking kombu
+  Running setup.py (path:/tmp/pip-build-EBrGF4/kombu/setup.py) egg_info for package kombu
+    
+Downloading/unpacking poster
+  Running setup.py (path:/tmp/pip-build-EBrGF4/poster/setup.py) egg_info for package poster
+    
+Downloading/unpacking docopt
+  Running setup.py (path:/tmp/pip-build-EBrGF4/docopt/setup.py) egg_info for package docopt
+    
+Installing collected packages: mutagen, PyDispatcher, anyjson, configobj, pyinotify, pytz, amqplib, kombu, poster, docopt
+  Running setup.py install for mutagen
+    changing mode of build/scripts-2.7/mid3iconv from 644 to 755
+    changing mode of build/scripts-2.7/mid3v2 from 644 to 755
+    changing mode of build/scripts-2.7/mutagen-inspect from 644 to 755
+    changing mode of build/scripts-2.7/mutagen-pony from 644 to 755
+    changing mode of build/scripts-2.7/moggsplit from 644 to 755
+    
+    changing mode of /usr/lib/airtime/airtime_virtualenv/bin/mid3iconv to 755
+    changing mode of /usr/lib/airtime/airtime_virtualenv/bin/mid3v2 to 755
+    changing mode of /usr/lib/airtime/airtime_virtualenv/bin/mutagen-inspect to 755
+    changing mode of /usr/lib/airtime/airtime_virtualenv/bin/mutagen-pony to 755
+    changing mode of /usr/lib/airtime/airtime_virtualenv/bin/moggsplit to 755
+  Running setup.py install for PyDispatcher
+    
+    warning: no previously-included files matching '*.bat' found anywhere in distribution
+    warning: no previously-included files matching './CVS' found anywhere in distribution
+    warning: no previously-included files matching '.cvsignore' found anywhere in distribution
+  Running setup.py install for anyjson
+    
+  Running setup.py install for configobj
+    
+  Running setup.py install for pyinotify
+    
+  Running setup.py install for pytz
+    
+    warning: no files found matching '*.pot' under directory 'pytz'
+    warning: no previously-included files found matching 'test_zdump.py'
+  Running setup.py install for amqplib
+    
+  Running setup.py install for kombu
+    
+  Running setup.py install for poster
+    
+  Running setup.py install for docopt
+    
+Successfully installed mutagen PyDispatcher anyjson configobj pyinotify pytz amqplib kombu poster docopt
+Cleaning up...
+* Checking for user pypo
+ * Creating user pypo
+* Creating INI files
+* Initializing INI files
+* Airtime Version: 2.5.1
+* Storage directory setup
+* Skipping directory already exists: /srv/airtime/stor
+* Giving Apache permission to access /srv/airtime/stor
+* Skipping directory already exists: /srv/airtime/stor/organize
+* Giving Apache permission to access /srv/airtime/stor/organize
+* Checking database for correct encoding
+could not change directory to "/home/idem/Airtime/install_minimal": Permission denied
+
+* Database Installation
+ * Creating Airtime database user
+  * Database user 'airtime' created.
+ * Creating Airtime database
+could not change directory to "/home/idem/Airtime/install_minimal": Permission denied
+  * Database 'airtime' created.
+  * Postgres scripting language already installed
+ * Creating database tables
+ * Setting Airtime version
+cat: /etc/timezone: No such file or directory
+ * Inserting stor directory location /srv/airtime/stor/ into music_dirs table
+Creating vhost "/airtime" ...
+...done.
+Creating user "airtime" ...
+...done.
+Setting permissions for user "airtime" in vhost "/airtime" ...
+...done.
+* Creating /etc/airtime
+* Creating /etc/monit/conf.d/monit-airtime-generic.cfg
+* Creating /etc/cron.d/airtime-crons
+* Creating /usr/lib/airtime
+* Creating symbolic links in /usr/bin
+* Creating /var/log/airtime
+* Creating /usr/share/airtime
+* Creating /var/log/airtime
+* Creating /var/tmp/airtime
+Generating locales
+Generating locales (this might take a while)...
+  cs_CZ.UTF-8... done
+  de_AT.UTF-8... done
+  de_DE.UTF-8... done
+  el_GR.UTF-8... done
+  en_CA.UTF-8... done
+  en_GB.UTF-8... done
+  en_US.UTF-8... done
+  es_ES.UTF-8... done
+  fr_FR.UTF-8... done
+  hu_HU.UTF-8... done
+  it_IT.UTF-8... done
+  ko_KR.UTF-8... done
+  pl_PL.UTF-8... done
+  pt_BR.UTF-8... done
+  ru_RU.UTF-8... done
+  ru_UA.UTF-8... done
+  uk_UA.UTF-8... done
+  zh_CN.UTF-8... done
+Generation complete.
+* Waiting for media-monitor processes to start...
+* Detecting OS: ...  Found Debian GNU/Linux 8.3 (jessie) (jessie) on amd64 architecture
+ * Creating symlink to Liquidsoap binary
+* Clearing previous pypo cache
+* Waiting for pypo processes to start...
+
+*** Verifying your system environment, running airtime-check-system ***
+AIRTIME_STATUS_URL             = http://localhost:80/api/status/format/json/api_key/%%api_key%%
+AIRTIME_SERVER_RESPONDING      = FAILED
+-- There appears to be a problem with your Airtime installation.
+-- Please visit http://wiki.sourcefabric.org/x/HABQ
+
+******************************* Install Complete *******************************
+
+********************************************************************************
+
+Отредактируйте конфигурационный файл airtime хоста nginx
+
+Перезапустите сервисы
+systemctl restart nginx
+systemctl restart airtime-liquidsoap
+systemctl restart airtime-playout
+systemctl restart airtime-media-monitor
+systemctl restart rabbitmq-server
+
+Проверте отсутствие ошибок
+ airtime-check-system
